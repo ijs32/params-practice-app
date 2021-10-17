@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get "/scream" => "params#scream"
   get "/scream/:word" => "params#scream"
 
-  post "/scream" => "params#post_scream"
+  post "/scream" => "params#scream"
 end
